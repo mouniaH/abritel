@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Abritel | location vac </title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <header>
+        <a class="logo" href="" title="Abritel">
+            <img id="imglogo" src="img/logo.svg" alt="Logo Abritel">
+        </a>
+        <nav class="header__nav">
+        <ul class="headerlist">
+           <div id="telecharger"><li><a href="https://www.abritel.fr/mobile/?desktopHeader=true"id="DLAPP">Téléchargez l'Appli</a></li></div> 
+            <li class="header_nav_menu"><a href="https://www.abritel.fr/tripboard">Carnets de Voyage</a></li>
+            <li class="header__nav__menu"><a href="">Connexion</a></li>
+            <li class="header_nav_menu"><a href="">Inscription</a></li>
+            <li class="header_nav_menu"><a href="">Aide</a></li>
+            <li class="header_nav_menu"><a href="">Euro (€)</a></li>
+           <div id="drapeau"> <li><img id="drapeaulangues" src="img/fr.png" alt="Langue FR"></li></div>
+           <div id="annonce"> <li><a href="" id="DLAPP">Publier une Annonce</a></li></div>
+          </ul>
+        </nav>
+    <div  class="header__burger" onclick="openMenuMobile()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+    </div>
+    </header>
+    <div class="tout">
+        <img src="img/vieux.jpg" width="100%">
+        <div class="texte">
+            <h1>Un toit ou vous retrouver tous enssemble</h1>
+            <div class="info">
+                <input type="text" placeholder="Ou vous allez ?">
+                <label for="date-depart"></label>
+                <input type="date" id="date-depart">
+                <label for="date-arrivee"></label>
+                <input type="date" id="date-arrivee">
+                <label for="nb-personnes"></label>
+                <input type="number" placeholder="Nombre" id="nb-personnes">
+                <button type="submit">Rechercher</button>
+        </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,94 @@
+body{
+    margin: auto;
+  }
+header {background-color:#f5f4f3;
+    display: flex;
+  
+    height: 20%;
+  
+    
+}
+
+body {
+    background-color: none;
+}
+
+.headerlist {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+
+}
+
+#drapeaulangues{
+    width : 15px;
+}
+.logo {
+    margin: 1%;
+    margin-right: 10%;
+}
+   #DLAPP {
+border: solid; color: black;
+background-color: white;
+
+    text-decoration: none;
+   }
+@media only screen and (max-width: 768px ){
+    .headerlist  {
+     display:none ;
+    }
+     }
+.tout {
+    position: relative;
+  
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+  }
+  
+  .texte {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 10px #272727;
+    font-size: large;
+  
+  }
+  .info {
+    background-color: #f5f4f3;
+  }
+  .header__burger {
+    display: none;
+ 
+}
+
+.header__burger svg {
+    stroke: rgb(0, 0, 0);
+    width: 22px;
+    height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__burger {
+        display: block;
+        cursor: pointer;
+        
+    }
+  }
+  .header__nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #374151;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;}
+
+
+  
